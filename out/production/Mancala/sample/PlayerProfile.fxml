@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane fx:id="PlayerProfileScene" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="900.0" prefWidth="800.0" style="-fx-background-color: #2F2B43;" xmlns="http://javafx.com/javafx/16" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.Controller">
+    <children>
+        <Pane prefHeight="900.0" prefWidth="800.0">
+            <children>
+                <Pane layoutX="625.0" layoutY="25.0" prefHeight="65.0" prefWidth="150.0" style="-fx-background-color: #fc077d; -fx-background-radius: 20 20;">
+                    <children>
+                        <Label layoutX="41.0" layoutY="9.0" prefHeight="45.0" prefWidth="68.0" text="Profile" textAlignment="CENTER" textFill="WHITE">
+                            <font>
+                                <Font name="System Bold" size="20.0" />
+                            </font>
+                        </Label>
+                    </children></Pane>
+                <Pane layoutX="585.0" layoutY="291.0" prefHeight="221.0" prefWidth="381.0" rotate="144.2" style="-fx-background-color: #fc077d; -fx-background-radius: 20 20;" />
+                <Button layoutX="625.0" layoutY="826.0" mnemonicParsing="false" onAction="#exitPlayerProfile" prefHeight="45.0" prefWidth="150.0" styleClass="button4" stylesheets="@../css/fullpackstyling.css" text="Back" textFill="WHITE">
+                    <font>
+                        <Font name="System Bold" size="18.0" />
+                    </font>
+                </Button>
+                <Pane layoutX="-159.0" layoutY="355.0" prefHeight="178.0" prefWidth="346.0" rotate="-50.7" style="-fx-background-color: #01b72f; -fx-background-radius: 20 20;" />
+            <ImageView fitHeight="131.0" fitWidth="240.0" layoutX="-6.0" layoutY="-9.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../Picture1.png" />
+               </image>
+            </ImageView>
+            </children>
+        </Pane>
+        <Pane layoutX="210.0" layoutY="754.0" prefHeight="205.0" prefWidth="423.0" rotate="48.0" style="-fx-background-color: #ea4520; -fx-background-radius: 20 20;" />
+    </children>
+</AnchorPane>

@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane fx:id="ExitGameScene" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="780.0" style="-fx-background-color: #2F2B43;" xmlns="http://javafx.com/javafx/16" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.Controller">
+    <children>
+        <Pane layoutY="-8.0" prefHeight="400.0" prefWidth="780.0">
+            <children>
+                <Pane layoutX="335.0" layoutY="-246.0" prefHeight="323.0" prefWidth="585.0" rotate="119.7" style="-fx-background-color: f98c2c; -fx-background-radius: 70;" />
+                <Pane layoutX="-139.0" layoutY="305.0" prefHeight="174.0" prefWidth="389.0" rotate="-35.5" style="-fx-background-color: #f9d42c; -fx-background-radius: 50 50;" />
+                <Button layoutX="127.0" layoutY="261.0" mnemonicParsing="false" onAction="#YesExitGame" prefHeight="50.0" prefWidth="174.0" style="-fx-border-radius: 20 20;" styleClass="button2" stylesheets="@../css/fullpackstyling.css" text="Yes" textFill="#dee2e8">
+                    <font>
+                        <Font name="Arial Bold" size="25.0" />
+                    </font>
+                </Button>
+                <Button layoutX="479.0" layoutY="261.0" mnemonicParsing="false" onAction="#noExitGame" prefHeight="50.0" prefWidth="174.0" style="-fx-border-radius: 20 20;" styleClass="button2" stylesheets="@../css/fullpackstyling.css" text="No" textFill="#dee2e8">
+                    <font>
+                        <Font name="Arial Bold" size="25.0" />
+                    </font>
+                </Button>
+                <Label layoutX="40.0" layoutY="55.0" prefHeight="50.0" prefWidth="486.0" text="Do You Wish To Exit Game?" textFill="#dee2e8">
+                    <font>
+                        <Font name="Arial Bold" size="36.0" />
+                    </font>
+                </Label>
+                <Label layoutX="40.0" layoutY="125.0" text="Press 'Yes' to exit to Windows Desktop" textFill="#dee2e8">
+                    <font>
+                        <Font name="Arial" size="18.0" />
+                    </font>
+                </Label>
+                <Pane layoutX="540.0" layoutY="366.0" prefHeight="69.0" prefWidth="406.0" rotate="13.2" style="-fx-background-color: #2ccdf9; -fx-background-radius: 50 50;" />
+            </children></Pane>
+    </children>
+</AnchorPane>

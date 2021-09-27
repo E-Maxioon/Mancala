@@ -1,0 +1,144 @@
+// Button 1 Properties
+.button1 {
+     -fx-background-color :  #36a8f9;
+     -fx-background-radius :  20;
+}
+
+.button1:hover {
+     -fx-background-color : #1191e0 ;
+     -fx-background-radius :  20;
+}
+
+.button1:pressed {
+     -fx-background-color : #0378c1 ;
+     -fx-background-radius :  20;
+}
+
+// Button 2 Properties
+.button2 {
+    -fx-background-color : #ff1e4b;
+    -fx-background-radius :  20;
+}
+
+.button2:hover {
+    -fx-background-color : #1191e0 ;
+    -fx-background-radius :  20;
+}
+
+.button2:pressed {
+    -fx-background-color : #0378c1 ;
+    -fx-background-radius :  20;
+}
+
+// Button 3 Properties
+.button3 {
+    -fx-background-color : #765ae8;
+    -fx-background-radius :  0 0 0 0;
+}
+
+.button3:hover {
+    -fx-background-color : #4b0de8 ;
+}
+
+.button3:pressed {
+    -fx-background-color : #03ad9c ;
+}
+
+// Button 4 Properties
+.button4 {
+    -fx-background-color : #765ae8;
+    -fx-background-radius :  30 30 30 30;
+}
+
+.button4:hover {
+    -fx-background-color : #EA1253;
+    -fx-background-radius :  30 30 30 30;
+}
+
+.button4:pressed {
+    -fx-background-color : #8776cc;
+    -fx-background-radius :  30 30 30 30;
+}
+
+// Button 5 Properties
+.button5 {
+    -fx-background-color : #765ae8;
+    -fx-text-fill : #ffffff;
+}
+
+.button5: hover {
+    -fx-text-fill : #9a0e0e;
+}
+
+.button5: pressed {
+    -fx-text-fill : #80AFF5;
+}
+
+.button5: active {
+    -fx-text-fill : #80AFF5;
+}
+
+// Button 6 Properties
+.button6 {
+    -fx-background-color : #393351;
+    -fx-background-radius :  20;
+}
+
+.button6: hover {
+    -fx-background-color : #524A7B ;
+    -fx-background-radius :  20;
+}
+
+.button6: pressed {
+    -fx-background-color : #2F2B43;
+    -fx-background-radius :  20;
+}
+
+ // Button 7 Properties
+ .button7 {
+     -fx-background-color : #765ae8;
+     -fx-background-radius :  100 100;
+ }
+
+ .button7:hover {
+     -fx-background-color : #EA1253;
+     -fx-background-radius :  100 100;
+ }
+
+ .button7:pressed {
+     -fx-background-color : #2F2B43;
+     -fx-background-radius :  100 100;
+ }
+
+    // Player 1 Pocket Properties
+    .Player1Pocket {
+        -fx-background-color : #025fd8;
+        -fx-background-radius :  100 100;
+    }
+
+    .Player1Pocket: hover {
+        -fx-background-color : #0286d8;
+        -fx-background-radius :  100 100;
+    }
+
+    .Player1Pocket: pressed {
+        -fx-background-color : #0242d8;
+        -fx-background-radius :  100 100;
+    }
+
+  // Player 2 Pocket Properties
+  .Player2Pocket {
+      -fx-background-color : #b22c83;
+      -fx-background-radius :  100 100;
+  }
+
+  .Player2Pocket: hover {
+      -fx-background-color : #EA1253;
+      -fx-background-radius :  100 100;
+  }
+
+  .Player2Pocket: pressed {
+      -fx-background-color : #2F2B43;
+      -fx-background-radius :  100 100;
+  }
+

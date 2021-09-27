@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.PasswordField?>
+<?import javafx.scene.control.RadioButton?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.control.ToggleGroup?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane fx:id="CreateNewUserScreenScene" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="750.0" prefWidth="714.0" style="-fx-background-color: #ffff;" stylesheets="@../css/fullpackstyling.css" xmlns="http://javafx.com/javafx/16" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.Controller">
+    <children>
+        <Pane prefHeight="750.0" prefWidth="714.0">
+            <children>
+                <TextField fx:id="FirstName" layoutX="200.0" layoutY="231.0" onAction="#getNewUsername" prefHeight="50.0" prefWidth="315.0" promptText="First Name" />
+                <PasswordField fx:id="newPassword" layoutX="200.0" layoutY="458.0" onAction="#getNewPassword" prefHeight="50.0" prefWidth="315.0" promptText="Password" />
+                <Button layoutX="427.0" layoutY="601.0" mnemonicParsing="false" onAction="#validCreateNewUserInput" prefHeight="40.0" prefWidth="88.0" styleClass="button2" stylesheets="@../css/fullpackstyling.css" text="Confirm" textFill="WHITE" />
+                <Label layoutX="200.0" layoutY="153.0" prefHeight="45.0" prefWidth="172.0" text="Create User" textAlignment="CENTER">
+                    <font>
+                        <Font name="System Bold" size="30.0" />
+                    </font>
+                </Label>
+                <Pane layoutX="403.0" layoutY="5.0" prefHeight="142.0" prefWidth="302.0" rotate="-136.7" style="-fx-background-color: #0748f9; -fx-background-radius: 20 20;" />
+                <Pane layoutX="-119.0" layoutY="696.0" prefHeight="158.0" prefWidth="291.0" rotate="-49.1" style="-fx-background-color: #f98007; -fx-background-radius: 20 20;" />
+                <Button fx:id="CreateNewUserBackButton" layoutX="609.0" layoutY="690.0" mnemonicParsing="false" onAction="#exitCreateNewUserScreen" prefHeight="35.0" prefWidth="75.0" styleClass="button3" stylesheets="@../css/fullpackstyling.css" text="back" textFill="WHITE" />
+                <Pane layoutX="-82.0" layoutY="226.0" prefHeight="113.0" prefWidth="251.0" rotate="157.4" style="-fx-background-color: #07f994; -fx-background-radius: 20 20;" />
+                <TextField fx:id="Surname" layoutX="200.0" layoutY="305.0" onAction="#getNewUsername" prefHeight="50.0" prefWidth="315.0" promptText="Surname" />
+                <TextField fx:id="newUsername" layoutX="198.0" layoutY="383.0" onAction="#getNewUsername" prefHeight="50.0" prefWidth="315.0" promptText="Username" />
+                <RadioButton fx:id="playerAccountButton" layoutX="200.0" layoutY="519.0" mnemonicParsing="false" prefHeight="65.0" prefWidth="122.0" text="Player Account">
+                    <toggleGroup>
+                        <ToggleGroup fx:id="AccountType" />
+                    </toggleGroup></RadioButton>
+                <RadioButton fx:id="adminAccountButton" layoutX="334.0" layoutY="519.0" mnemonicParsing="false" prefHeight="65.0" prefWidth="122.0" text="Admin Account" toggleGroup="$AccountType" />
+            </children>
+        </Pane>
+      <ImageView fitHeight="144.0" fitWidth="244.0" layoutX="-10.0" layoutY="4.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../Picture1.png" />
+         </image>
+      </ImageView>
+    </children>
+</AnchorPane>

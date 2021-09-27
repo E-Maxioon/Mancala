@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane fx:id="AdminAccountScene" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="750.0" prefWidth="714.0" style="-fx-background-color: #ffff;" stylesheets="@../css/fullpackstyling.css" xmlns="http://javafx.com/javafx/16" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.Controller">
+    <children>
+        <Pane prefHeight="750.0" prefWidth="714.0">
+            <children>
+                <Label layoutX="200.0" layoutY="153.0" prefHeight="45.0" prefWidth="222.0" text="Admin Account" textAlignment="CENTER">
+                    <font>
+                        <Font name="System Bold" size="30.0" />
+                    </font>
+                </Label>
+                <Button layoutX="609.0" layoutY="690.0" mnemonicParsing="false" onAction="#exitAdminScreen" prefHeight="35.0" prefWidth="75.0" styleClass="button4" stylesheets="@../css/fullpackstyling.css" text="back" textFill="WHITE" />
+                <Pane layoutX="527.0" layoutY="240.0" prefHeight="188.0" prefWidth="417.0" rotate="-63.4" style="-fx-background-color: #b92cf9; -fx-background-radius: 20 20;" />
+                <ImageView fitHeight="144.0" fitWidth="244.0" layoutX="-10.0" layoutY="4.0" pickOnBounds="true" preserveRatio="true">
+                    <image>
+                        <Image url="@../Picture1.png" />
+                    </image>
+                </ImageView>
+            </children>
+        </Pane>
+          <Pane layoutX="-161.0" layoutY="657.0" prefHeight="122.0" prefWidth="255.0" rotate="-33.7" style="-fx-background-color: #0ace86; -fx-background-radius: 20 20;" />
+    </children>
+</AnchorPane>

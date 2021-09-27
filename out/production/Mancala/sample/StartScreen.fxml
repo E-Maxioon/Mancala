@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane fx:id="startScreenScene" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="730.0" prefWidth="1297.0" style="-fx-background-color: #2F2B43;" xmlns="http://javafx.com/javafx/16" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.Controller">
+    <children>
+        <AnchorPane layoutX="-4.0" layoutY="-8.0" prefHeight="730.0" prefWidth="1297.0" style="-fx-background-color: #393351;" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+            <children>
+                <ImageView fitHeight="1000.0" fitWidth="1300.0" pickOnBounds="true" preserveRatio="true">
+                    <image>
+                        <Image url="@../dsvsvsd.png" />
+                    </image>
+                </ImageView>
+                <Pane prefHeight="815.0" prefWidth="0.0" />
+                <Pane layoutX="-247.0" layoutY="-178.0" prefHeight="240.0" prefWidth="474.0" rotate="-128.5" style="-fx-background-color: #ffad21; -fx-background-radius: 20 20;" />
+                <Button fx:id="startButton" layoutX="361.0" layoutY="546.0" mnemonicParsing="false" onAction="#loadLogin" prefHeight="70.0" prefWidth="220.0" styleClass="button6" stylesheets="@../css/fullpackstyling.css" text="login" textFill="WHITE">
+                    <font>
+                        <Font name="System Bold" size="30.0" />
+                    </font>
+                </Button>
+                <Button layoutX="1162.0" layoutY="29.0" mnemonicParsing="false" onAction="#ExitGameButton" prefHeight="45.0" prefWidth="115.0" styleClass="button6" stylesheets="@../css/fullpackstyling.css" text="Exit" textFill="WHITE">
+                    <font>
+                        <Font name="System Bold" size="18.0" />
+                    </font>
+                </Button>
+                <Button fx:id="startButton1" layoutX="721.0" layoutY="546.0" mnemonicParsing="false" onAction="#loadCreateNewUser" prefHeight="70.0" prefWidth="220.0" styleClass="button6" stylesheets="@../css/fullpackstyling.css" text="New User" textFill="WHITE">
+                    <font>
+                        <Font name="System Bold" size="30.0" />
+                    </font>
+                </Button>
+            </children>
+        </AnchorPane>
+        <Pane layoutX="1157.0" layoutY="329.0" prefHeight="168.0" prefWidth="370.0" rotate="-18.4" style="-fx-background-color: #ff21e5; -fx-background-radius: 20 20;" />
+    </children>
+</AnchorPane>
