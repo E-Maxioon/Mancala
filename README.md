@@ -43,6 +43,12 @@ those pieces.
 8. Count all the pieces in each store. The winner
 is the player with the most pieces.
 
+# Hero Section
+
+1. All images are in 4K resolution, click to enlarge for better viewing.
+
+<img src="src/dsvsvsd.png" width="100%" height="950px">
+
 # Game System Structure
 This section will describe in detail the exact elements of the proposed system and what features
 are to be supported.
